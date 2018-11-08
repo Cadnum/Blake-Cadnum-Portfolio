@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+}
+ul{
+  padding-left: 0px;
+}
+
+
+nav {
+  padding: 0px 100px;
+  font-weight: bold;
+}
+nav p {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 0px;
+}
+nav ul {
+
+list-style-type: none;
+  float: right;
+}
+
+nav-item{
+  background-color: white;
+}
+
+.nav-item a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: white;
+  font-style: normal;
+  font-family: 'Istok Web', sans-serif;
+}
+
+.nav-item a:hover {
+  color: rgb(146, 147, 146);
+}
+.nav-item a:active{
+  color: grey;
+
+}
+.nav-item ul li {
+  display:inline-block;
+}
+.container {
+  margin: 0 auto;
+  padding: 60px 100px;
+}
+
+.intro-text {
+  font-size: 30px;
+  line-height: 10px;
+  font-weight: normal;
+}
+
+.container-images {
+  width: 100%;
+  display: inline-block;
+  margin:0px;
+  z-index: 1;
+
+}
+
+.img-small {
+  width: 30%;
+  height: 300px;
+}
+
+.img-large {
+  height: 300px;
+  width: 70%;
+}
+
+.img-left {
+
+  float: left;
+}
+
+.img-right {
+
+  float: right;
+}
+.about-me {
+  width: 70%;
+  margin: 0 auto;
+}
+.about-me > ul{
+
+  padding: 0;
+  margin: 0 auto;
+}
+.about-me > ul > li{
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+
+
+}
+.about-me > h3{
+  text-align: center;
+  font-size: 36px;
+
+}
+.about-me > ul > li>h5{
+  text-align: center;
+  font-size: 24px;
+}
+
+.about-me ul li ul li {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
+section.Footer {
+  background-color: black;
+
+
+
+}
+section.Footer >h4 {
+  color: white;
+  text-align: center;
+  display: block;
+  width: 30%;
+  font-size: 16px;
+  line-height: 12px;
+  padding-top: 50px;
+  padding-left: 50px;
+
+
+}
+section.Footer >ul > li {
+  color: white;
+  text-align: center;
+  list-style-type: none;
+  font-size: 16px;
+
+}
+
+section.Footer >ul > li >hr{
+  display: block;
+  width: 20%;
+  float: auto;
+}
+
+section.Footer ul  li{
+  display: inline-block;
+  width: 100%;
+
+
+}
+
+section.Footer ul{
+padding: 0 px;
+font-weight: bold;
+}
+.Footer {
+  width: 100%;
+  margin: 0 auto;
+}
+.Footer > ul{
+
+  padding: 0;
+  margin: 0 auto;
+}
+.about-me > ul > li{
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+
+
+
+}
+.Footer >h4{
+  margin-top: 0px;
+}
+.Footer > ul > li>h5{
+  text-align: center;
+  font-size: 16px;
+
+}
+
+.Footer ul li ul li {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.navbar navbar-inverse{
+  overflow:hidden;
+}
+.navbar navbar-inverse a{
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  display: block;
+}
+.content {
+  padding: 16px;
+}
+div.intro-text h3{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+
+}
+div.a{
+  display: block;
+  width: 100%;
+  background-color: black;
+  float: right;
+}
+
+.bg-6{
+  margin-bottom: 100px;
+  background-color: #000;
+}
+section.co{
+  background-color: black;
+  color: white;
+  display: block;
+  width: 100%;
+}
+.A{
+margin-left: 300px;
+
+}
